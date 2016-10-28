@@ -1,0 +1,130 @@
+
+header{
+    height:28px;
+  
+}
+.logmenu{
+    float:right;
+   }
+.clearfix::after{
+    content: "";
+    display: block;
+    clear:both;
+}
+.logmenu ul{
+    margin: 0;
+    padding: 0;
+    
+}
+.logmenu li{
+    float:left;
+    list-style-type: none;
+    margin-left:5px ;
+    margin-right: 5px;
+     }
+.logmenu a{
+    font-family: 'Days One', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    }
+#banner{
+    position: relative;
+    height:500px;
+    overflow-y: visible;
+/*    background-color: #fff;   */
+   }
+#banner .logo{
+    position: absolute;
+    float:left;
+    left:25px;
+    top:20px;
+    width:250px;
+    height: 75px;
+   
+}
+#banner .nav{
+    float:right;
+    }
+#banner .nav ul{
+    position: absolute;
+    right:50px;
+    top:25px;
+    
+    margin: 0;
+    padding: 0;
+}
+#banner .nav li{
+    float:left;
+    list-style-type: none;
+    }
+#banner .nav a{
+    font-family: 'Days One', sans-serif;
+    border-radius: 4px;
+    margin:5px;
+    border:1px solid #fff;
+    background-color: rgba(0,0,0,.4);
+    color:#fff;
+    text-decoration: none;
+    padding:6px 10px;
+    display: block;
+}
+.nav a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    color:#f50404;
+}
+#about{
+    margin:10px auto;
+    }
+
+#about .img-about{
+    margin-top:10px;
+    margin-bottom: 10px;
+    height:150px;
+    padding: 15px;
+    
+}
+#about .imgabout{
+    width:calc(20% - 20px);
+    height:120px;
+    float:left;
+    border-radius: 10px;
+    overflow: hidden;
+    margin:0 10px;
+}
+
+
+#justin .prod-col3{
+    border-radius: 5px;
+    overflow: hidden;
+    width:calc(100%/3 - 20px);
+    background-color: rgba(0,0,0,.5);
+    padding-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float:left;
+}
+#justin .prod-col3 .prodpic-col3{
+    padding:5px;
+    background-image: linear-gradient(0deg,rgba(100,100, 100, 0.9)25%,rgba(200, 200, 200, 0.9)50%,rgba(100, 100, 100, .9)100%);
+    z-index: 1;
+    position: relative;
+}
+
+#justin .prod-col3 h2{
+    text-indent: 15px; 
+    border-bottom: 2px solid #333;
+}
+#justin .prod-col3 p{
+    height: 125px;
+}
+#justin .prodpic-col3 .icon{
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    z-index: 2;
+    width:50px;
+    height: 50px;
+}
+
+
