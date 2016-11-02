@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+        }
+p,h1,h2,h3,h4,h5,h6,body{
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after{
+    content="";
+    display: block;
+    clear:both;
+}
+img{
+    width:100%;
+    display: block;
+    margin:auto;
+}
